@@ -6,9 +6,9 @@ This script calculates and prints the latest version from the
 It does not work correctly when comparing `0.10` to `0.10-SNAPSHOT` version
 but you are not likely to hit this and otherwise it should work correctly.
 
-*In maven versioning scheme `0.10 > 0.10-SNAPSHOT` (contrary to the whole
-other world) but you don't (and can't) store both SNAPSHOT and non-SNAPSHOT 
-versions in the same Nexus repository.*
+*In maven versioning scheme `0.10' is greater than `0.10-SNAPSHOT` (contrary to 
+the whole rest of the world) but you don't (and can't) store both SNAPSHOT and 
+non-SNAPSHOT versions in the same Nexus repository.*
 
 ### Background
 
